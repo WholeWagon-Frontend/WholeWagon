@@ -1,0 +1,247 @@
+:root {
+    --primary-color: #4b0082;
+    --text-color: #333;
+    --light-bg: #f7f3fa;
+    --white: #ffffff;
+  }
+
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background: var(--white);
+    color: var(--text-color);
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    background-color: var(--primary-color);
+  }
+
+  .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+
+  .login-btn {
+    border: 1px solid white;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    background: transparent;
+    margin-right: 10px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  .content {
+    padding: 24px 16px;
+    text-align: center;
+  }
+
+  .content h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--primary-color);
+  }
+
+  .highlight {
+    color: var(--primary-color);
+  }
+
+  .subtitle {
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--text-color);
+    margin-bottom: 20px;
+  }
+
+  .start-btn {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .start-btn:hover {
+    background-color: #3d006f;
+  }
+
+  .image-container {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .how-it-works {
+    padding: 60px 16px;
+    background-color: var(--light-bg);
+    text-align: center;
+  }
+
+  .how-it-works h2 {
+    font-size: 36px;
+    color: var(--primary-color);
+    margin-bottom: 40px;
+  }
+
+  .timeline {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+    padding-left: 40px;
+  }
+
+  .step {
+    position: relative;
+    margin-bottom: 50px;
+    padding-left: 50px;
+  }
+
+  .circle {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: var(--primary-color);
+    color: white;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    line-height: 36px;
+  }
+
+  .step-content h3 {
+    font-size: 24px;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+  }
+
+  .step-content p {
+    font-size: 18px;
+    color: #444;
+    margin: 0;
+  }
+
+  .why-love {
+    padding: 60px 20px;
+    background-color: var(--white);
+    text-align: center;
+  }
+
+  .why-love h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+  }
+
+  .why-love p {
+    font-size: 18px;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto 40px;
+  }
+
+  .benefit-card {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f7f3fa;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .benefit-icon {
+    font-size: 30px;
+    color: var(--primary-color);
+  }
+
+  .benefit-content h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 8px;
+  }
+
+  .benefit-content p {
+    font-size: 16px;
+    color: #444;
+    margin: 0;
+  }
+  .support-section {
+    padding: 60px 20px;
+    background-color: var(--light-bg);
+    text-align: center;
+  }
+  
+  .support-heading {
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-bottom: 16px;
+  }
+  
+  .support-text {
+    font-size: 18px;
+    color: #444;
+    max-width: 700px;
+    margin: 0 auto 30px;
+  }
+  
+  .support-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background-color: #f7f3fa;
+    padding: 16px 24px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .email-icon {
+    font-size: 24px;
+    color: var(--primary-color);
+  }
+  
+  .email-text p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .email-text a {
+    color: #4b0082;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .email-text a:hover {
+    text-decoration: underline;
+  }
