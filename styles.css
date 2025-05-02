@@ -353,99 +353,119 @@
   font-weight: bold;
 }
 
-/* FOOTER */
-.footer-section{
+/* Updated FOOTER */
+.footer {
+  background-color: #955cbd;
+  color: white;
+  padding: 40px 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-column h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #d1b3ff;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column li {
+  margin-bottom: 10px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  height: 100vh;
-  padding: 50px 100px;
 }
 
-.footer {
-  width: 100%;
-  min-height: 100vh;
-  background-image: url("./images/Contact.png");
-  background-size: cover;
-  background-position: center;
+.footer-column a {
   color: white;
+  text-decoration: none;
+  font-size: 14px;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+}
+
+.footer-column a:hover {
+  color: #d1b3ff;
+}
+
+.footer-column a:hover .footer-icon {
+  fill: white;
+}
+
+.footer-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.footer-column p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-bottom {
+  display: flex;
   justify-content: space-between;
-  padding: 50px;
-  position: relative;
+  align-items: center;
+  max-width: 1200px;
+  margin: 20px auto 0;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  flex-wrap: wrap;
 }
 
-.footer-content {
-  width: 100%;
-  font-family: "Times New Roman", serif;
-  position: relative;
-}
-
-.brand {
-  font-size: 28px;
-  font-weight: bold;
-  color: #d1b3ff;
-  margin-bottom: 20px;
-}
-
-.social-links {
-  font-size: 20px;
-  line-height: 1.8;
-  margin-top: 100px;
-}
-
-#instagram-link , 
-#Facebook-link,
-#Twitter-link{
-  color: white;
-  text-decoration: none;
-}
-
-#instagram-link:hover,
-#Twitter-link:hover,
-#Facebook-link:hover{
-  color: #d1b3ff;
-}
-
-.contact {
-  font-size: 22px;
-  white-space: nowrap;
-  margin-top: 10px;
-  text-align: center;
-}
-
-.location {
-  font-size: 18px;
-  align-self: flex-start;
-  margin-bottom: 10px;
-}
-
-.footer-section{
-  list-style-type: none;
+.footer-links {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  gap: 20px;
 }
 
-.footer-section a{
-  color: white;
-  text-decoration: none;
-}
-
-.footer-section a:hover{
+.footer-links a {
   color: #d1b3ff;
-  text-decoration: solid;
+  text-decoration: none;
+  font-size: 14px;
 }
 
-.Make-money-with-us{
-  list-style-type: none;
+.footer-links a:hover {
+  color: white;
 }
 
-.Let-Us-Help-You{
-  list-style-type: none;
+.footer-bottom p {
+  font-size: 14px;
+  margin: 0;
 }
 
-.About{
-  list-style-type: none;
+.payment-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.payment-icon {
+  height: 24px;
 }
